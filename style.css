@@ -1,0 +1,162 @@
+
+*{
+  margin:0;
+  border:boder-box;
+}
+body{
+  background-color: black;
+  background-size:cover;
+}
+.navbar{
+  background-color:black;
+  height:60px;
+  border-radius:5px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+}
+.nav-toggle{
+  margin-left:2px;
+  display:none;
+}
+.logo{
+  background-image:url(images/logo.webp.jpeg);
+  height:50px;
+  width:50px;
+  background-size:cover;
+  border-radius:300px;
+}
+.border:hover{
+ border:1px solid white;
+ cursor:pointer;
+ padding-left: 4px;
+ padding-right: 4px;
+ padding-top: 4px;
+ padding-bottom: 4px;
+}
+.res-name{
+  margin-left:10px;
+}
+.address{
+  display:flex;
+  margin-left:35px;
+}
+.nav-search{
+  background-color:rgb(231, 225, 225);;
+  width:500px;
+  display:flex;
+  margin-left:20px;
+  justify-content:center;
+  align-items: center;
+  border-radius: 10px;
+ 
+}
+.search-bar{
+  width:400px;
+  height:30px;
+}
+.search-icon{
+  height:30px;
+  width:25px;
+}
+.speak-icon{
+  height:30px;
+  width:25px; 
+}
+
+.home{
+  display:flex;
+  margin-left:30px;
+}
+
+.account{
+  display:flex;
+  margin-left:30px;
+}
+
+.order-sec{
+  display:flex;
+  margin-left:30px;
+}
+
+.menu-sec{
+  display:flex;
+  margin-left:30px;
+}
+
+.about-sec{
+  display:flex;
+  margin-left:30px;
+}
+.mat-size{
+  font-size:14px;
+}
+
+
+/** hero **/
+.hero{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-img{
+  background-image:url(images/img1.webp.jpeg);
+  width:600px;
+  height:600px;
+  background-size: cover;
+  margin-left:185px;
+  margin-top: 50px;
+  display:block;
+}
+.hero-mat{
+  display:block;
+ margin-bottom: 350px;
+ font-size: 60px;
+ margin-top: 30px;
+ font-family: "Playwrite DE SAS", cursive;
+ color:white;
+}
+.com-mat{
+font-size: 20px;
+margin-left:30px;
+margin-top:80px;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(205, 201, 201);
+}
+
+/** special **/
+.item{
+  display:flex;
+ 
+  height:400px;
+  margin-left: 80px;
+  margin-right: 80px;
+  
+}
+.box{
+  color:black;
+  background-color: rgb(173, 168, 168);
+  width:18%;
+  height:250px;
+  margin-left: 40px;
+  border-radius: 40px;
+  margin-top: 20px;
+  background-size: cover;
+  flex-wrap: wrap;
+}
+.special{
+  color:white;
+  font-size: 30px;
+  font-family: "Archivo", sans-serif;
+  margin-left: 40px;
+}
+.item-msg{
+color:white;
+margin-left:30px;
+font-weight: 50px;
+
+}
+.msg-1{
+  font-size:20px;
+}
